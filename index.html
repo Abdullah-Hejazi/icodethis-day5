@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>I Code This - Day 5</title>
+</head>
+<body>
+    <div class="flex-container">
+        <div id="main-container">
+            <div class="title">Expenses</div>
+
+            <div class="topbar-container">
+                <div class="topbar-options">
+                    <div class="topbar-option topbar-option-selected">Weekly</div>
+                    <div class="topbar-option">Monthly</div>
+                    <div class="topbar-option">Yearly</div>
+                </div>
+
+                <div class="topbar-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                    </svg>                      
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <div class="chart-left">
+                    <div class="chart-left-number">
+                        4K
+                        <span class="chart-line"></span>
+                    </div>
+                    <div class="chart-left-number">
+                        3K
+                        <span class="chart-line"></span>
+                    </div>
+                    <div class="chart-left-number">
+                        2K
+                        <span class="chart-line"></span>
+                    </div>
+                    <div class="chart-left-number">
+                        1K
+                        <span class="chart-line"></span>
+                    </div>
+                    <div class="chart-left-number">
+                        0
+                        <span class="chart-line"></span>
+                    </div>
+                </div>
+
+                <div class="chart-right">
+                    <div class="chart-canvas">
+                        <div class="chart-canvas-bars">
+                            <div class="chart-canvas-bar-purple"></div>
+                            <div class="chart-canvas-bar-pink"></div>
+                        </div>
+
+                        <div class="chart-canvas-bars">
+                            <div class="chart-canvas-bar-purple"></div>
+                            <div class="chart-canvas-bar-pink"></div>
+                        </div>
+
+                        <div class="chart-canvas-bars">
+                            <div class="chart-canvas-bar-purple"></div>
+                            <div class="chart-canvas-bar-pink"></div>
+                        </div>
+
+                        <div class="chart-canvas-bars">
+                            <div class="chart-canvas-bar-purple"></div>
+                            <div class="chart-canvas-bar-pink"></div>
+                        </div>
+
+                        <div class="chart-canvas-bars">
+                            <div class="chart-canvas-bar-purple"></div>
+                            <div class="chart-canvas-bar-pink"></div>
+                        </div>
+
+                        <div class="chart-canvas-bars">
+                            <div class="chart-canvas-bar-purple"></div>
+                            <div class="chart-canvas-bar-pink"></div>
+                        </div>
+
+                        <div class="chart-canvas-bars">
+                            <div class="chart-canvas-bar-purple"></div>
+                            <div class="chart-canvas-bar-pink"></div>
+                        </div>
+                    </div>
+
+                    <div class="chart-canvas-bottom">
+                        <div class="chart-canvas-bottom-item">Mon</div>
+                        <div class="chart-canvas-bottom-item">Tue</div>
+                        <div class="chart-canvas-bottom-item">Wed</div>
+                        <div class="chart-canvas-bottom-item">Thu</div>
+                        <div class="chart-canvas-bottom-item">Fri</div>
+                        <div class="chart-canvas-bottom-item">Sat</div>
+                        <div class="chart-canvas-bottom-item">Sun</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chart-legend">
+                <div class="chart-legend-item">
+                    <div class="chart-legend-item-purple"></div>
+                    <div class="chart-legend-item-text">Income</div>
+                </div>
+
+                <div class="chart-legend-item">
+                    <div class="chart-legend-item-pink"></div>
+                    <div class="chart-legend-item-text">Expenses</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
